@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FIND YOUR GIFT</title>
+        <link href="style.css" rel="stylesheet">
+        <script src=main.js></script>
+        </head>
+<body>
+<p id="p1">QUIZ AND WIN</p>
+<form id="quiz" name="quiz">
+    <p>What is the Most Valuable language in Web Development?</p>
+    <input id="textbox" type="text" name="question1">
+
+    <p>Using a API?</p>
+    <input type="radio" id="qe" name="question2" value="Beginner">Beginner<br>
+    <input type="radio" id="qe" name="question2" value="Expert">Expert<br>
+
+    <p>Have a Github Account?</p>
+    <input type="radio" id="qe" name="question3" value="yes">Yes<br>
+    <input type="radio" id="qe" name="question3" value="no">No<br>
+
+    <input id="button" type="button" value="I'm finished" onclick="check();">
+
+</form>
+<div id="aftersub">
+    <p id="howcorrect">You finished Well</p>
+    <p id="message"></p>
+    <img id="picture">
+</div>
+
+</body>
+
+</html>
